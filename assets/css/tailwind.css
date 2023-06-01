@@ -7,13 +7,10 @@ html {
 }
 
 body {
+  @apply bg-gradient-to-br from-zinc-800 to-zinc-900;
   @apply h-screen;
 }
 
-div#__next {
-  @apply h-screen;
-}
-
-main {
+div#__nuxt {
   @apply h-screen;
 }
