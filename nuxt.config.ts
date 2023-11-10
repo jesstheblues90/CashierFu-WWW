@@ -9,7 +9,8 @@ export default defineNuxtConfig({
         { name: 'description', content: 'CashierFu Point-of-Sale'}
       ],
       link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Icons'}
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Icons'},
+        { rel: "icon", type: "image/png", href: "/favicon.ico" }
       ]
     }
   }

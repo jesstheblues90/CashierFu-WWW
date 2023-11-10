@@ -1,5 +1,5 @@
 <template>
-  <div id="logo" class="flex items-center justify-center h-screen">
-    <img src="~/assets/CashierFu.svg" alt="CashierFu" class="w-40"/>
-  </div>
+  <a href="/">
+    <img src="~/assets/CashierFu Logo.svg" alt="CashierFu Logo" class="w-48"/>
+  </a>
 </template>
