@@ -1,5 +1,3 @@
 <template>
-  <main class="h-full">
-    <NuxtPage />
-  </main>
+  <NuxtPage />
 </template>
