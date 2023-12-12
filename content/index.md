@@ -4,7 +4,7 @@
 
 ![CashierFu Point-Of-Sale Screenshot](/images/screenshot.png)
 
-[![Download on the App Store](/images/Download.svg)](https://apps.apple.com/us/app/cashierfu/id1490002124)
+[![Download on the App Store](/images/download.svg)](https://apps.apple.com/us/app/cashierfu/id1490002124)
 
 Need help? Contact us at [support@cashierfu.com](mailto:support@cashierfu.com)
 
