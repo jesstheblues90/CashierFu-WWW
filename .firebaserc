@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "cashierfu-app"
-  }
+  },
+  "targets": {
+    "cashierfu-app": {
+      "hosting": {
+        "www": [
+          "cashierfu-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
