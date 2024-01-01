@@ -34,6 +34,5 @@ firebase deploy --only hosting # --OR--
 npm run deploy
 ```
 
-Deploy the app to 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
