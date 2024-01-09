@@ -7,29 +7,44 @@ html {
 }
 
 body {
-  @apply bg-gradient-to-br from-zinc-800 to-zinc-900 bg-fixed bg-cover;
+  @apply bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 bg-fixed bg-cover font-oswald text-gray-800 dark:text-gray-200;
+}
+
+#__nuxt {
+  @apply flex flex-col min-h-screen;
 }
 
 main {
-  @apply m-auto p-8 lg:w-1/3;
+  @apply flex flex-col flex-grow gap-2;
 }
 
-#content {
-  @apply space-y-8;
+section {
+  @apply flex flex-col;
 }
 
-#content h1 {
-  @apply text-4xl text-center font-bold text-zinc-100;
+header {
+  @apply flex flex-row items-center justify-between p-4 bg-gray-100 dark:bg-gray-900;
 }
 
-#content p {
-  @apply text-center text-sm text-zinc-500;
+footer {
+  @apply flex flex-row justify-between p-4 bg-gray-100 dark:bg-gray-900 shadow-md text-xs;
+}
+footer nav {
+  @apply flex flex-row gap-4;
 }
 
-#content p a {
-  @apply font-semibold text-zinc-300;
+h1 {
+  @apply text-4xl text-gray-800 dark:text-gray-200;
 }
 
-#content img {
-  @apply w-full m-auto;
+h2 {
+  @apply text-3xl text-gray-600 dark:text-gray-400;
+}
+
+hr {
+  @apply flex flex-row w-full border-2 border-gray-400 dark:border-gray-600;
+}
+
+p {
+  @apply text-sm;
 }
