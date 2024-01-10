@@ -8,6 +8,11 @@ Make sure to install the dependencies:
 npm install
 ```
 
+Ensure that you have `service-account.json` credentials file from Firebase in root of project:
+[https://firebase.google.com/docs/admin/setup](https://firebase.google.com/docs/admin/setup)
+
+You must also have both `.env` and `.env.prod` files in the root of the project. See example files.
+
 ## Development Server
 
 Start the development server on [http://localhost:3000](http://localhost:3000)
