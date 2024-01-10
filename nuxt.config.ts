@@ -1,17 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  ssr: false,
   modules: [
     '@nuxt/content',
     '@nuxt/ui',
     'nuxt-vuefire',
     '@nuxtjs/tailwindcss'
   ],
+  nitro: {
+    firebase: {
+      gen: 2,
+      serverFunctionName: 'www'
+    }
+  },
   vuefire: {
-    auth: {
-      enabled: true
-    },
     config: {
       apiKey: "AIzaSyAt3633-J5Xf1wK3chhlOkb_pfe0ClIfgs",
       authDomain: "cashierfu-app.firebaseapp.com",

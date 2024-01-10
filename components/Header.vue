@@ -4,6 +4,5 @@
       <Logo class="w-10 h-10"/>
       <h1 class="text-xl">CashierFu</h1>
     </span>
-    <Auth />
   </header>
 </template>

@@ -22,7 +22,7 @@ logs
 .env
 .env.*
 !.env.example
+!.env.prod.example
 
 .firebase
-
-.DS_Store
+service-account.json

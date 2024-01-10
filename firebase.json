@@ -1,17 +1,19 @@
 {
-  "hosting": {
-    "public": ".output/public",
-    "target": "www",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
+  "functions": { 
+    "source": ".output/server",
+    "runtime": "nodejs20"
+  },
+  "hosting": [
+    {
+      "public": ".output/public",
+      "target": "www",
+      "cleanUrls": true,
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [{ "source": "**", "function": "www" }]
+    }
+  ]
 }
