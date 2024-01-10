@@ -10,7 +10,7 @@ npm install
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on [http://localhost:3000](http://localhost:3000)
 
 ```bash
 npm run dev
@@ -21,7 +21,7 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run generate
+npm run build
 ```
 
 ## Deploy
@@ -30,7 +30,7 @@ npm run generate
 npm install -g firebase-tools #if needed
 firebase login # if needed
 
-firebase deploy --only hosting # --OR--
+firebase deploy --only functions:server, hosting # --OR--
 npm run deploy
 ```
 
